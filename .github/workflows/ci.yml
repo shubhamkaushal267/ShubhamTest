@@ -1,0 +1,9 @@
+name: Test CI
+on: [Push]
+
+jobs:
+	hello-world:
+		runs-on: ubuntu-latest
+		steps:
+		-name : say hello
+		run: echo "shubham here!"
