@@ -5,5 +5,5 @@ jobs:
 	hello-world:
 		runs-on: ubuntu-latest
 		steps:
-		-name : say hello
+		- name : say hello
 		run: echo "shubham here!"
