@@ -2,8 +2,8 @@ name: Test CI
 on: [Push]
 
 jobs:
-	hello-world:
+	helloworld:
 		runs-on: ubuntu-latest
 		steps:
-		- name : say hello
+		-  name : say hello
 		run: echo "shubham here!"
