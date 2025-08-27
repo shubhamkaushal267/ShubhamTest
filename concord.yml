@@ -1,6 +1,10 @@
 configuration:
   runtime: "concord-v2"
+  arguments:
+    myName: shubham
+  debug: true
 
 flows:
   default:
   - log: "Hello, Concord User"
+  - log: "Say hello to ${myName}"
