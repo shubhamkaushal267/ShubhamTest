@@ -4,6 +4,13 @@ configuration:
     myName: shubham
   debug: true
 
+triggers:
+  - github:
+      version: 2
+      entryPoint: default
+      conditions:
+        type: "push"
+        
 flows:
   default:
   - log: "Hello, Concord User"
